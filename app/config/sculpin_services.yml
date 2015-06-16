@@ -1,0 +1,5 @@
+services:
+    bcremer_sculpinexample.pdo_datasource:
+        class: Bcremer\SculpinExample\MemoryDataSource
+        tags:
+            - { name: sculpin.data_source }
